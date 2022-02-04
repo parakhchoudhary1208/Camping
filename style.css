@@ -57,7 +57,8 @@ html,body
 #nav #nav1 img:hover
 {
     cursor: pointer;
-    box-shadow: 0px 0px 10px rgb(254,222,106);
+    filter: drop-shadow(4px 4px 4px rgba(255, 255, 255, 0.857));
+    -webkit-filter: drop-shadow(4px 4px 4px rgb(254,222,106));
 }
 
 #nav #nav2
@@ -122,7 +123,7 @@ html,body
     top: 23%;
     left: 20%;
     font-size: 15px;
-    font-weight: 100;
+    font-weight: 200;
     color: #fff;
     font-family: Gilroy;
 }
